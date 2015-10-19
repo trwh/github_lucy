@@ -1,0 +1,24 @@
+{
+  "name": "github_profile",
+  "authors": [
+    "Lucy Fang <lucyfang2@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery": "~2.1.4",
+    "angular": "~1.4.7",
+    "angular-resource": "~1.4.7"
+  }
+}
