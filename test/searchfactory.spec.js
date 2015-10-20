@@ -12,7 +12,7 @@ describe('factory: Search', function() {
   beforeEach(inject(function($httpBackend) {
       httpBackend = $httpBackend
       httpBackend
-        .when("GET", "https://api.github.com/search/users?access_token=yourtoken&q=hello")
+        .when("GET", "https://api.github.com/search/users?access_token=" + github_token + "&q=hello")
         .respond(
           { items: items }
         );
